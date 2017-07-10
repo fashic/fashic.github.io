@@ -1,0 +1,35 @@
+.header {
+  background: #27273E;
+  height: 77px;
+  display: inline-block;
+  min-width: 100%;
+  padding: 10px 20px;
+}
+
+.logo {
+  float: left
+}
+
+.contacts {
+  float: right;
+  margin-right: 36px;
+}
+
+.contacts-phone {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.contacts-schedule {
+  text-align: right;
+  font-size: 14px;
+}
+ 
+
+.contacts-schedule__link {
+  color: rgba(119,152,201, .7);
+  font-weight: bold;
+  
+}

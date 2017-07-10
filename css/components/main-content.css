@@ -1,0 +1,31 @@
+.main-content__main {
+  max-width: 720px;
+}
+
+.page-text__list {
+  list-style-type: none;
+}
+
+.page-text__list::before {
+    color: #ec1e79; 
+    content: "•"; 
+   padding-right: 14px;
+}
+
+.description {
+  background-color: #27273e;
+  color: #fff;
+}
+.description span{
+  color: #ec1e79;
+}
+
+/*.partners__item {
+  height: 62px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.partners__img {
+  height: 62px;
+}*/

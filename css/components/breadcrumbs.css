@@ -1,0 +1,15 @@
+.main-nav {
+  margin-bottom: 10px;
+}
+
+.main-nav__link {
+  color: #f04b94;
+  font-style: italic;
+  font-size: 14px; 
+}
+
+.main-nav__link-active {
+  text-decoration: none;
+  color: #4e4c4c;
+}
+

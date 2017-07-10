@@ -1,0 +1,82 @@
+.page {
+  margin-top: -7px;
+}
+
+
+.page-image {
+  margin-bottom: 30px;
+}
+
+.page-image__picture {
+  background-image: url("/img/bg/aoc1.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 355px;
+  width: 880px;
+
+}
+
+.page-image__text {
+  font-size: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  top: 143px;
+  left: 87px;
+  }
+
+
+.page-text p {
+  padding-bottom: 20px;
+}
+
+.page-text h3 {
+  padding-bottom: 20px;
+}
+
+.page-text ul {
+  margin-left: 15px;
+}
+
+.page-text__list {
+  list-style-type: none;
+}
+
+.page-text__list::before {
+    color: #ec1e79; 
+    content: "•"; 
+   padding-right: 14px;
+}
+
+.description {
+  background-color: #27273e;
+  color: #fff;
+  padding: 20px;
+  padding-right: 50px;
+  padding-left: 30px;
+  margin-bottom: 60px;
+}
+.description span{
+  color: #ec1e79;
+  font-weight: bold;
+}
+
+.partners__title {
+  font-size: 49px;
+  text-transform: uppercase
+}
+
+.partners__item {
+  list-style-type: none;
+  vertical-align: middle;
+  display: inline-table;
+  text-align: center;
+  width: 30%;
+  padding: 33px 0; 
+}
+
+.partners__link {
+  display: table-cell;
+  vertical-align: middle;
+  
+}
