@@ -13,27 +13,32 @@
    <div class="wrapper">
 
  <!-- шапка -->
-    <header class="header">
-      <img src="../img/logo/logo-fig.png" alt="" class="logo">
-      <div class="contacts">
-        <a href="tel:88000039210" class="contacts-phone">
-          8(800)00-392-10
-        </a>
-        <div class="contacts-schedule">
-          <a class="contacts-schedule__link" href="">График работы</a>
-        </div>
+    <header class="header ">
+      <div class="container">
+        <div class="logo">
+          <img src="../img/logo/logo-fig.png" alt="" class="logo__img">
+        </div>           
+        <div class="contacts">
+          <a href="tel:88000039210" class="contacts-phone">
+            8(800)00-392-10
+          </a>
+          <div class="contacts-schedule">
+            <a class="contacts-schedule__link" href="">График работы</a>
+          </div>
+        </div>  
       </div>
     </header>
 
 
-    <section class="page">
+    <section class="page clearfix container">
 
       <!-- боковая панель -->
       <aside class="sidebar">
         <nav class="menu">
           <ul class="nav-menu">
             <li class="nav-menu__item">
-              <a class="nav-menu__link nav-menu__main "  href="./main.html">
+              <a class="nav-menu__link nav-menu__main"  href="./main.html">
+              <span class="nav-menu__icon nav__menu" ></span>
                 Главная
               </a>
             </li>
@@ -44,7 +49,7 @@
               </a>
             </li>
             <li class="nav-menu__item">
-              <a class="nav-menu__link nav-menu__comment nav-manu__feedback-active" href="./comments.html">
+              <a class="nav-menu__link nav-menu__comment nav-menu__feedback-active" href="./comments.html">
                 Отзывы
               </a>
               </a>
@@ -56,71 +61,72 @@
       <!-- основной контент-->
       <main class="main-content">
         <div class="main-nav">
-          <a href="./main.html" class="main-nav_link">Главная</a>
+          <!--сделать списком
+          <a href="./main.html" class="main-nav__link">Главная</a>
           /
-          <a href="" class="main-nav_link main-nav_link-active">Отзывы</a>
+          <a href="" class="main-nav__link main-nav__link-active">Отзывы</a>-->
         </div>
-        <div class="feedback">
-          <h2 class="feedback__title">Отзывы</h2>
+        <div class="feedback clearfix">
+          <h1 class="feedback__title">Отзывы</h1>
           <ul class="feedback__list">
             <li class="feedback__item">
-              <div class="feedback__item-img">
-                <img src="./img/content/fb_1.jpg" alt="">
+              <div class="feedback__img">
+                <img src="./img/content/fb_1.jpg" alt="" >
               </div>  
               <div class="feedback__content">                
                 <p class="feedback__item-date">
-                  <p>12.10.2016</p>
-                </p>
+                  12.10.2016
+                </p>  
                 <p class="feedback__item-name">
-                  <p>Олег Павлов</p>
+                  Олег Павлов
                 </p>
                 <p class="feedback__item-text">
                   Пользуемся услугами коворкинга стабильно раз в неделю, когда проводим совещания директоров. Получается намного дешевле и удобно всем добираться. Единственное пожелание – расширить меню, потому что бизнес-ланчи – это все таки средний уровень, а хочется чего то более вкусного, чтобы можно было угощать начальство.
                 </p>
               </div>
-            </li>
+            </li>                
             <li class="feedback__item">
-              <div class="feedback__item-img">
+              <div class="feedback__img">
                 <img src="./img/content/fb_2.jpg" alt="">
               </div>  
               <div class="feedback__content">                
                 <p class="feedback__item-date">
-                  <p>01.02.2016</p>
+                  01.02.2016
                 </p>
                 <p class="feedback__item-name">
-                  <p>Эрнест Изиль</p>
+                  Эрнест Изиль
                 </p>
                 <p class="feedback__item-text">
                   Я фрилансер, программист, работать дома не могу, так как мешают дети. Здесь нашел то, что давно искал – тишину и спокойствие. Эффективность работы выросла, как и гонорары. Очень удобно, что коворкинг находится недалеко от метро. Стабильный интернет, чистота и порядок вокруг, никто не мешает. Цены сначала показались высокими, но учитывая полученные преимущества, все отлично!
                 </p>
               </div>
-            </li>
+            </li>               
             <li class="feedback__item">
-              <div class="feedback__item-img">
-                <img src="./img/content/fb_3.jpg" alt="">
+              <div class="feedback__img">
+                <img src="./img/content/otziv-logo.png" alt="" >
               </div>  
               <div class="feedback__content">                
                 <p class="feedback__item-date">
-                  <p>22.12.2015</p>
+                  22.12.2015
                 </p>
                 <p class="feedback__item-name">
-                  <p>Елена Сургай</p>
+                  Елена Сургай
                 </p>
                 <p class="feedback__item-text">
                   Захожу сюда не часто, так как не мой район, но когда бываю в центре, то периодически нужно место для плодотворной работы. Интернет-клубы не подходят, так как не обеспечивают такой уровень сервиса, как Воркадиум. Здесь я нахожу вдохновение и могу выделить время для творчества. Желаю Воркадиуму процветания и развития. Если будете открывать филиалы, обратите внимание на Алексеевский район, я буду вашим постоянным клиентом :) 
                 </p>
               </div>
-            </li>
+            </li>                
             <li class="feedback__item">
-              <div class="feedback__item-img">
-                <img src="./img/content/fb_4.jpg" alt="">
+              <div class="feedback__img">
+                <img src="./img/content/fb_4.jpg" alt="" >
               </div>  
               <div class="feedback__content">                
                 <p class="feedback__item-date">
-                  <p>14.08.2015</p>
+                  14.08.2015
                 </p>
                 <p class="feedback__item-name">
-                  <p>Наталья Осадчая</p>
+                  Наталья Осадчая
                 </p>
                 <p class="feedback__item-text">
                   Провожу здесь встречи с клиентами в неформальной обстановке. Удобно, что при необходимости все под рукой – и ксерокс, и принтер и магазин канцелярии. Заключаю здесь свои лучшие договора. Единственное пожелание – сделайте еще несколько переговорных комнат на 10-15 человек, а то они пользуются большим спросом и не всегда есть возможность забронировать.
@@ -131,11 +137,18 @@
           
         </div>
         <div class="page-scroll">
-          <div></div>
+          <div class="page-scroll__title">
+            <p class="page-scroll__text">Страница 1 из 7</p>
+          </div>
           <div class="page-scroll__main">
             <ul class="page-scroll__item">
               <li class="page-scroll__number">
-                <a href="" class="page-scroll__link">1</a>
+                <a href="" class="page-scroll__link">
+                  <img src="/img/icon/arrow-left.png" alt="">
+                </a>
+              </li>
+              <li class="page-scroll__number page-scroll__number-active">
+                <a href="" class="page-scroll__link page-scroll__link-active">1</a>
               </li>
               <li class="page-scroll__number">
                 <a href="" class="page-scroll__link">2</a>
@@ -155,66 +168,133 @@
               <li class="page-scroll__number">
                 <a href="" class="page-scroll__link">7</a>
               </li>
+              <li class="page-scroll__number">
+                <a href="" class="page-scroll__link">
+                  <img src="/img/icon/arrow-right.png" alt="">
+                </a>
+              </li>
             </ul>
           </div>
 
         </div>
         <div class="form">
-          <form action="" id="feedback" name="feedback">
-            
+          <form class="form__elem" method="post">
+            <div class="form__title">
+              Оставить отзыв
+            </div>
+            <div class="form__row-name">
+              <label class="form__input">
+                <div class="form__elem-title">
+                  Ваше имя
+                </div>
+                <input type="text" value="" class="form__input-text" placeholder="Введите имя">
+              </label>
+              <label class="form__input">
+                <div class="form__elem-title">
+                  Ссылка на профиль в VK
+                </div>
+                <input type="text" value="" class="form__input-text" placeholder="Вставьте ссылку">
+              </label>
+            </div>
+            <div class="form__row-comments"
+              <label class="form__textarea-label">
+                <div class="form__elem-title">
+                  Текст отзыва
+                </div>
+                <textarea class="form__textarea"></textarea>
+              </label>  
+            </div>
+            <div class="form__btns">
+              <div class="form__controls">               
+                <div class="form__radio-btns clearfix">
+                  <div class="form__radio-left">
+                    <div class="form__controls-title">
+                       Отображать фото в отзыве?
+                    </div>
+                    <label class="form__radio">
+                      <input type="radio" name="foto" class="form__radio-elem" checked> 
+                      <div class="form__radio-fake"></div>
+                      <div class="form__radio-text">Да</div>
+                    </label>
+                    <label class="form__radio">
+                      <input type="radio" name="foto" class="form__radio-elem">
+                      <div class="form__radio-fake"></div>
+                      <div class="form__radio-text">Нет</div>
+                    </label>
+                  </div>
+                  <div class="form__radio-right">
+                    <input type="submit" value="Отправить" class="form_submit">
+                  </div>
+                </div>
+              </div>
+            </div>
           </form>
         </div>
       </main>
 
+    </section>  
+
 
 <!-- подвал -->
     <footer class="footer">
-      <div class="copyrite">
-        <p>Сделано с любовью и старанием<br>на курсе «HTML + CSS» в <a href="">LoftSchool</a>.<br>Автор работы: <span>Прохладов Вадим</span></p>
-      </div>
-      <div>
-        <img src="./img/logo/logo-fig.png" alt="" class="logo">
-      </div>
-      <div class="social-menu">
-        <p>Наши социальные сети</p>
-        <ul class="social-menu__item">
-          <li class="social-menu__list">
-            <a href="" class="social-menu__link">
-              <div class="social-menu__icon">
-                <img src="./img/icon/social_icon_r_1.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li class="social-menu__list">
-            <a href="" class="social-menu__link">
-               <div class="social-menu__icon">
-                <img src="./img/icon/social_icon_2.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li class="social-menu__list">
-            <a href="" class="social-menu__link">
-               <div class="social-menu__icon">
-                <img src="./img/icon/social_icon_3.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li class="social-menu__list">
-            <a href="" class="social-menu__link">
-               <div class="social-menu__icon">
-                <img src="./img/icon/social_icon_4.png" alt="">
-              </div>
-            </a>
-          </li>
-          <li class="social-menu__list">
-            <a href="" class="social-menu__link">
-               <div class="social-menu__icon">
-                <img src="./img/icon/social_icon_5.png" alt="">
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
+      <div class="container">
+        <div class="copyrite">
+          <div class="copyrite__content">
+            Сделано с любовью и старанием
+          </div>
+          <div class="copyrite__content">
+            на курсе «HTML + CSS» в <a href="">LoftSchool</a>
+          </div>
+          <div class="copyright__author">
+             Автор работы: <a href="">Линкер Алексей</a>
+          </div>        
+        </div>
+        <div class="footer-logo">
+          <img src="./img/logo/logo-fig.png" alt="" class="logo">
+        </div>
+        <div class="social-menu">
+          <div class="social-menu__title">
+            Наши социальные сети
+          </div> 
+          <ul class="social-menu__list">
+            <li class="social-menu__item">
+              <a href="" class="social-menu__link">
+                <div class="social-menu__icon">
+                  <img src="./img/icon/social_icon_r_1.png" alt="">
+                </div>
+              </a>
+            </li>
+            <li class="social-menu__item">
+              <a href="" class="social-menu__link">
+                <div class="social-menu__icon">
+                  <img src="./img/icon/social_icon_2.png" alt="">
+                </div>
+              </a>
+            </li>
+            <li class="social-menu__item">
+              <a href="" class="social-menu__link">
+                <div class="social-menu__icon">
+                  <img src="./img/icon/social_icon_3.png" alt="">
+                </div>
+              </a>
+            </li>
+            <li class="social-menu__item">
+              <a href="" class="social-menu__link">
+                <div class="social-menu__icon">
+                  <img src="./img/icon/social_icon_4.png" alt="">
+                </div>
+              </a>
+            </li>
+            <li class="social-menu__item">
+              <a href="" class="social-menu__link">
+                <div class="social-menu__icon">
+                  <img src="./img/icon/social_icon_5.png" alt="">
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>  
     </footer>
    </div>
 </body>
