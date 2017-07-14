@@ -1,8 +1,10 @@
 .footer {
   background: #27273e;
-   display: inline-block; 
+  display: inline-block; 
   min-width: 100%;
   font-size: 14px;
+  height: 77px;
+  margin-top: -77px;
 }
 
 

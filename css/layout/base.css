@@ -40,10 +40,10 @@ table {
   border-spacing: 0;
 }
 
-/*img {
-  min-width: 100%;
-  min-height: 100%;
-  border: none;*/
+img {
+  /* min-width: 100%;
+  min-height: 100%; */
+  border: none;
 }
 
 a {
@@ -59,7 +59,6 @@ a {
 .wrapper {
   position: relative;
   min-height: 100%;
-  overflow: hidden;
 }
 
 .container {
