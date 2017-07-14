@@ -1,7 +1,6 @@
 
 .feedback {
   width: 920px;
-  padding-top: 60px;
 }
 
 .feedback__title {
@@ -23,13 +22,13 @@
   display: inline-block;
   margin-right: 20px;
   vertical-align: top;
+  margin-top: 20px;
   }
 
 
 .feedback__img img {
   border-radius: 50%;
   margin-bottom: 30px;
-  margin-top: 20px;
 }
 
 .feedback__content {
@@ -58,31 +57,31 @@
 
 .page-scroll {
 text-align: center;
-margin-bottom: 70px;
+margin-bottom: 60px;
 }
 
 .page-scroll__title {
   display: inline-block;
   font-size: 14px;
-  margin-right: 35px;
+  /* padding-left: 10px; */
   color: #656464;
-}
-
-.page-scroll__title {
-  color: #656464;
+ padding-right: 10px;
 }
 
 .page-scroll__main{
-  display: inline-block;
+  
 }
 
 .page-scroll__item {
   list-style-type: none;
+  display: inline-block;
+  margin-right: 131px;
 }
 
 .page-scroll__number {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 10px;
+  font-size: 14px;
 }
 
 .page-scroll__number:last-child {

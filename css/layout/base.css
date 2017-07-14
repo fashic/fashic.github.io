@@ -68,9 +68,8 @@ a {
 }
 
 .main-content {
-  max-width: 910px;
+  max-width: 880px; 
   float: left;
-  margin-bottom: 77px;
+  margin-bottom: 63px;
   position: relative;
-  /*padding-left: 24px;*/
 }

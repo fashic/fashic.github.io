@@ -3,6 +3,7 @@
   background-color: #f5f5f5;
   padding: 37px 70px;
   border-radius: 3px;
+  margin-bottom: 17px;
 }
 
 .form__row-name {
@@ -116,6 +117,7 @@
   height: 20px;
   display: inline-block;
   border-radius: 50%;
+  cursor: pointer;
   border: 1px solid #cbcbcb;
   position: relative;
   background: -webkit-linear-gradient(top, #fdfdfd 0%, #efefef 100%);
@@ -140,7 +142,7 @@
   text-align: right;
 }
 
-.form_submit {
+.form__submit {
   display: inline-block;
   width: 140px;
   height: 47px;
@@ -151,7 +153,8 @@
   border: none;
   border-radius: 3px;
   text-transform: uppercase;
-  font-family: gothan;
+  font-family: 'Gotham';
   padding-left: 2px;
   letter-spacing: 3px;
+  cursor: pointer;
 }

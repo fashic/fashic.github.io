@@ -4,9 +4,8 @@
 
 .sidebar {
   float: left;
-  width: 190px;
-  margin-top: 35px;
-  padding-left: 10px;
+  width: 180px;
+  margin-top: 41px;
 }
 
 .nav-menu {
@@ -15,77 +14,67 @@
 
 .nav-menu__item {
   display: inline-block;
-  width: 190px;
+  margin-bottom: 24px;
 }
 
 .nav-menu__link {
   text-decoration: none;
-  font-size: 12px;
-  font-weight: bold;
-  color: #ec1e79;
-  position: relative;
-  padding-left: 39px;
-  text-transform: uppercase;
-  line-height: 4;
+}
+
+.nav-menu__icon {
   display: inline-block;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  top: -3px;
-  max-width: 100%;
-  
+  background: url("../../img/icon/sprite_worcadium.png") -170px -50px no-repeat;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 16px;
 }
 
-.nav-menu__link::before {
-  content: '';
-  position: absolute;
-  left: 0px; 
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  max-width: 100%; 
-  width: 21px;
-  height: 19px;
-  top: 14px;
+.nav-menu__text {
+  font-size: 12px;
+  color: #ec1e79;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  max-width: 120px;
 }
 
-.nav-menu__main::before {
-  background-image: url(/img/icon/main_icon_1.png);  
+.nav-menu__icon-price {
+  background-position-x: -888px;
 }
 
-.nav-menu__prise::before {
-  background-image: url(/img/icon/wallet_icon_1.png);
-}
-.nav-menu__feedback::before {
-  background-image: url(/img/icon/feed_icon_1.png);
+.nav-menu__icon-feedback {
+  background-position-x: -50px;
 }
 
-.nav-menu__link:hover {
+.nav-menu__link:hover .nav-menu__icon {
+  background-position-y: -170px;
+}
+
+.nav-menu__link:hover .nav-menu__text{
   color: #000;
 }
 
-.nav-menu__main-active {
-   color: #000;
+.nav-menu__icon-feedback {
+  background-position-x: -50px;
 }
 
-.nav-menu__prise-active {
-   color: #000;
+.nav-menu-active .nav-menu__link  {
+  cursor: default;
 }
 
-.nav-menu__feedback-active {
-   color: #000;
+.nav-menu-active .nav-menu__icon-main {
+  background-position: -170px -170px;
 }
 
-.nav-menu__main-active::before, .nav-menu__main:hover {
-  background-image: url(/img/icon/main_icon.png);
+.nav-menu-active .nav-menu__icon-price {
+  background-position: -888px -170px;
 }
 
-.nav-menu__prise-active::before, .nav-menu__prise:hover {
-  background-image: url(/img/icon/wallet_icon.png);
+.nav-menu-active .nav-menu__icon-feedback {
+  background-position: -50px -170px;
 }
 
-.nav-menu__feedback-active::before, .nav-menu__feedback:hover  {
-  background-image: url(/img/icon/feed_icon.png);
-}
-
-.nav-menu__main:hover {
-  background-position-y: 13px;
+.nav-menu-active .nav-menu__text {
+  color: #000;
 }

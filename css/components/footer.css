@@ -1,6 +1,6 @@
 .footer {
   background: #27273e;
-  display: inline-block;
+   display: inline-block; 
   min-width: 100%;
   font-size: 14px;
 }
@@ -9,7 +9,7 @@
 .copyrite {
   color: #fff;
   display: inline-block;
-  padding: 15px 20px
+  /* padding-top: 8px; */
 }
 
 .copyrite a {
@@ -23,18 +23,25 @@
 
 .footer-logo {
   display: inline-block;
-  padding-left: 208px;
-  text-align: center
+  padding-left: 216px;
+  /* text-align: center; */
+  padding-top: 12px;
 }
 
 .social-menu {
   color: #fff;
   display: inline-block;
-  min-width: 33%;
+  /* min-width: 33%; */
   text-align: right;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   padding-top: 10px;
-  margin-left: 90px;
+  margin-left: 290px;
+}
+
+.social-menu__title {
+  padding-left: 5px;
+   /* text-align: right; */
+   font-weight: bold;
 }
 
 .social-menu__list {
@@ -46,4 +53,40 @@
   list-style-type: none;
   display: inline-block;
   margin-right: 7px;
+}
+
+.social-menu__icon {
+  background: url("/img/icon/sprite_worcadium.png");
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 22px;
+}
+
+.social-menu__icon:hover {
+  background-position-y: -170px;
+}
+
+
+.social-menu__vk {
+  background-position: -288px -50px;
+}
+
+.social-menu__fb {
+  background-position: -408px -50px;
+}
+
+.social-menu__g {
+  background-position: -528px -50px;
+}
+
+.social-menu__tw {
+  background-position: -648px -50px;
+}
+
+.social-menu__mail {
+  background-position: -768px -50px;
+}
+
+.social-menu__item:hover {
+ background-position-y: -170px;
 }

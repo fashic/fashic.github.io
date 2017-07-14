@@ -23,8 +23,16 @@
           <a href="tel:88000039210" class="contacts-phone">
             8 (800)00-392-10
           </a>
-          <div class="contacts-schedule">
-            <a class="contacts-schedule__link" href="">График работы</a>
+          <div class="contacts-schedule"> 
+            <a class="contacts-schedule__link"href="">График работы</a>
+            <div class="contacts__dropdown">
+              <div class="contacts__time">
+                пн-вс: 09:00-20:00
+              </div>
+              <div class="contacts__lunch">
+                 обед: 14:00-14:30
+              </div>
+            </div>
           </div>
         </div>  
       </div>
@@ -33,34 +41,39 @@
 
     <section class="page clearfix container">
 
-      <!-- боковая панель -->
+        <!-- боковая панель -->
       <aside class="sidebar">
-        <nav class="menu">
-          <ul class="nav-menu">
-            <li class="nav-menu__item">
-              <a class="nav-menu__link nav-menu__main nav-menu__main-active"  href="./main.html">
-                Главная
-              </a>
-            </li>
-            <li class="nav-menu__item">
-              <a class="nav-menu__link nav-menu__prise" href="./prices.html">
-                Тарифы
-              </a>
-              </a>
-            </li>
-            <li class="nav-menu__item">
-              <a class="nav-menu__link nav-menu__feedback" href="./comments.html">
-                Отзывы
-              </a>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </aside>
+          <nav class="menu">
+            <ul class="nav-menu">
+              <li class="nav-menu__item nav-menu-active">
+                <a href="main.html" class="nav-menu__link">
+                  <div class="nav-menu__icon nav-menu__icon-main"></div>
+                  <div class="nav-menu__text">Главная</div>
+                </a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="prices.html" class="nav-menu__link">
+                  <div class="nav-menu__icon nav-menu__icon-price">
+                    <img src="" alt="">
+                  </div>
+                  <div class="nav-menu__text">Тарифы</div>
+                </a>
+              </li>
+              <li class="nav-menu__item">
+                <a href="comments.html" class="nav-menu__link">
+                  <div class="nav-menu__icon nav-menu__icon-feedback">
+                    <img src="" alt="">
+                  </div>
+                  <div class="nav-menu__text">Отзывы</div>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
 
 
       <!-- основной контент -->
-      <main class="main-content main-content__main">
+      <main class="main-content">
         <div class="page-image">
           <img  alt="" class="page-image__picture clearfix">
           <div class="page-image__title">
@@ -68,39 +81,46 @@
           </div>  
         </div>
         <!-- текст на странице-->
-        <div class="page-text">
-          <p>Чтобы работать в дружелюбной и уютной атмосфере, не обязательно снимать офис за баснословные суммы. Обратитесь в наш коворкинг «Воркадиум» и оцените преимущества сотрудничества. </p>
-        <h3>Что мы предлагаем</h3>
-        <ul>
-          <li class="page-text__list">
-            Огромный конференц-зал на 120 человек для проведения массовых переговоров, праздников, совещаний.
-          </li>
-          <li class="page-text__list">
-            Средний конференц-зал на 40 человек.
-          </li>
-          <li class="page-text__list">
-            Уютный зал с круглым столом для совещаний на 12 человек.
-          </li>
-          <li class="page-text__list">
-            Пространство для совместной работы. Несколько вариантов – от уютных небольших кабинетов с панорамными окнами и стильных офисов на несколько человек до творческих комнат в стиле лофт с высокими потолками, без привычных атрибутов офиса.
-          </li>
-          <li class="page-text__list">
-            Большая библиотека с классической и специальной литературой.
-          </li>
-          <li class="page-text__list">
-            Магазин канцелярии.
-          </li>
-          <li class="page-text__list">
-            Компьютерный зал.
-          </li>
-          <li class="page-text__list">
-            Зал для неформальных встреч с баром и кальяном.
-          </li>
-        </ul>
-        <p>Возможность комфортно работать и с удобством организовывать бизнес встречи – это базовая потребность современного делового человека. В уютных залах «Воркадиум» есть все, что нужно для ведения дел – переговорные столы, тумбы и шкафы для хранения документов, компьютерная техника, а также уютный ресторан для дружеских встреч.</p>
-        </div>
-        <div class="description">
-          <p>Для наших новых клиентов мы предлагаем <span>скидку 50%</span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!</p>
+        <div class="page-width">
+          <div class="page-text">
+            <p>Чтобы работать в дружелюбной и уютной атмосфере, не обязательно снимать офис за баснословные суммы. Обратитесь
+              в наш коворкинг «Воркадиум» и оцените преимущества сотрудничества. </p>
+            <h3>Что мы предлагаем</h3>
+            <ul>
+              <li class="page-text__list">
+                Огромный конференц-зал на 120 человек для проведения массовых переговоров, праздников, совещаний.
+              </li>
+              <li class="page-text__list">
+                Средний конференц-зал на 40 человек.
+              </li>
+              <li class="page-text__list">
+                Уютный зал с круглым столом для совещаний на 12 человек.
+              </li>
+              <li class="page-text__list">
+                Пространство для совместной работы. Несколько вариантов – от уютных небольших кабинетов с панорамными окнами и стильных офисов
+                на несколько человек до творческих комнат в стиле лофт с высокими потолками, без привычных атрибутов офиса.
+              </li>
+              <li class="page-text__list">
+                Большая библиотека с классической и специальной литературой.
+              </li>
+              <li class="page-text__list">
+                Магазин канцелярии.
+              </li>
+              <li class="page-text__list">
+                Компьютерный зал.
+              </li>
+              <li class="page-text__list">
+                Зал для неформальных встреч с баром и кальяном.
+              </li>
+            </ul>
+            <p>Возможность комфортно работать и с удобством организовывать бизнес встречи – это базовая потребность современного
+              делового человека. В уютных залах «Воркадиум» есть все, что нужно для ведения дел – переговорные столы, тумбы
+              и шкафы для хранения документов, компьютерная техника, а также уютный ресторан для дружеских встреч.</p>
+          </div>
+          <div class="description">
+            <p>Для наших новых клиентов мы предлагаем <span>скидку 50%</span> на первый день! Приходите, чтобы лично оценить
+              преимущества коворкинга «Воркадиум»!</p>
+          </div>
         </div>
         <div class="partners">
           <h2 class="partners__title">Партнёры</h2>
@@ -124,86 +144,96 @@
                 <a class="partners__link " href="">
                   <img src="./img/icon/prt-3.png" alt="">
                 </a>
-              </div>  
+              </div>
             </li>
             <li class="partners__item">
               <div class="partners__img">
                 <a class="partners__link" href="">
                   <img src="./img/icon/prt-4.png" alt="">
                 </a>
-              </div>  
+              </div>
             </li>
             <li class="partners__item">
               <div class="partners__img">
                 <a class="partners__link" href="">
                   <img src="./img/icon/prt-5.png" alt="">
                 </a>
-              </div>  
+              </div>
             </li>
             <li class="partners__item">
               <div class="partners__img">
                 <a class="partners__link partners__text-righ" href="">
                   <img src="./img/icon/prt-6.png" alt="">
                 </a>
-              </div>  
+              </div>
             </li>
           </ul>
         </div>
-      </main>
+        </main>
 
-    </section>
+        </section>
 
-<!-- подвал -->
-    <footer class="footer">
-      <div class="container">
-        <div class="copyrite">
-          <p>Сделано с любовью и старанием<br>на курсе «HTML + CSS» в <a href="">LoftSchool</a>.<br>Автор работы: <span>Прохладов Вадим</span></p>
-        </div>
-        <div class="footer-logo">
-          <img src="./img/logo/logo-fig.png" alt="" class="logo">
-        </div>
-        <div class="social-menu">
-          <p>Наши социальные сети</p>
-          <ul class="social-menu__list">
-            <li class="social-menu__item">
-              <a href="" class="social-menu__link">
-                <div class="social-menu__icon">
-                  <img src="./img/icon/social_icon_r_1.png" alt="">
-                </div>
-              </a>
-            </li>
-            <li class="social-menu__item">
-              <a href="" class="social-menu__link">
-                <div class="social-menu__icon">
-                  <img src="./img/icon/social_icon_2.png" alt="">
-                </div>
-              </a>
-            </li>
-            <li class="social-menu__item">
-              <a href="" class="social-menu__link">
-                <div class="social-menu__icon">
-                  <img src="./img/icon/social_icon_3.png" alt="">
-                </div>
-              </a>
-            </li>
-            <li class="social-menu__item">
-              <a href="" class="social-menu__link">
-                <div class="social-menu__icon">
-                  <img src="./img/icon/social_icon_4.png" alt="">
-                </div>
-              </a>
-            </li>
-            <li class="social-menu__item">
-              <a href="" class="social-menu__link">
-                <div class="social-menu__icon">
-                  <img src="./img/icon/social_icon_5.png" alt="">
-                </div>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>  
-    </footer>
+        <!-- подвал -->
+        <footer class="footer">
+          <div class="container">
+            <div class="copyrite">
+              <div class="copyrite__content">
+                Сделано с любовью и старанием
+              </div>
+              <div class="copyrite__content">
+                на курсе «HTML + CSS» в <a href="">LoftSchool</a>
+              </div>
+              <div class="copyright__author">
+                Автор работы: <a href="">Линкер Алексей</a>
+              </div>
+            </div>
+            <div class="footer-logo">
+              <img src="./img/logo/logo-fig.png" alt="" class="logo">
+            </div>
+            <div class="social-menu">
+              <div class="social-menu__title">
+                Наши социальные сети
+              </div>
+              <ul class="social-menu__list">
+                <li class="social-menu__item ">
+                  <a href="" class="social-menu__link">
+                    <div class="social-menu__icon social-menu__vk">
+                      <img src="" alt="">
+                    </div>
+                  </a>
+                </li>
+                <li class="social-menu__item">
+                  <a href="" class="social-menu__link">
+                    <div class="social-menu__icon social-menu__fb">
+                      <img src="" alt="">
+                    </div>
+                  </a>
+                </li>
+                <li class="social-menu__item">
+                  <a href="" class="social-menu__link">
+                    <div class="social-menu__icon social-menu__g">
+                      <img src="" alt="">
+                    </div>
+                  </a>
+                </li>
+                <li class="social-menu__item">
+                  <a href="" class="social-menu__link">
+                    <div class="social-menu__icon social-menu__tw">
+                      <img src="" alt="">
+                    </div>
+                  </a>
+                </li>
+                <li class="social-menu__item">
+                  <a href="" class="social-menu__link">
+                    <div class="social-menu__icon social-menu__mail">
+                      <img src="" alt="">
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
    </div>
 </body>
 </html>

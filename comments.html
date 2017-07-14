@@ -13,17 +13,25 @@
    <div class="wrapper">
 
  <!-- шапка -->
-    <header class="header ">
+    <header class="header">
       <div class="container">
         <div class="logo">
           <img src="../img/logo/logo-fig.png" alt="" class="logo__img">
         </div>           
         <div class="contacts">
           <a href="tel:88000039210" class="contacts-phone">
-            8(800)00-392-10
+            8 (800)00-392-10
           </a>
-          <div class="contacts-schedule">
-            <a class="contacts-schedule__link" href="">График работы</a>
+          <div class="contacts-schedule"> 
+            <a class="contacts-schedule__link"href="">График работы</a>
+            <div class="contacts__dropdown">
+              <div class="contacts__time">
+                пн-вс: 09:00-20:00
+              </div>
+              <div class="contacts__lunch">
+                 обед: 14:00-14:30
+              </div>
+            </div>
           </div>
         </div>  
       </div>
@@ -34,37 +42,45 @@
 
       <!-- боковая панель -->
       <aside class="sidebar">
-        <nav class="menu">
-          <ul class="nav-menu">
-            <li class="nav-menu__item">
-              <a class="nav-menu__link nav-menu__main"  href="./main.html">
-              <span class="nav-menu__icon nav__menu" ></span>
-                Главная
-              </a>
-            </li>
-            <li class="nav-menu__item">
-              <a class="nav-menu__link nav-menu__prise" href="./prices.html">
-                Тарифы
-              </a>
-              </a>
-            </li>
-            <li class="nav-menu__item">
-              <a class="nav-menu__link nav-menu__comment nav-menu__feedback-active" href="./comments.html">
-                Отзывы
-              </a>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </aside>
+          <nav class="menu">
+            <ul class="nav-menu">
+              <li class="nav-menu__item">
+                <a href="main.html" class="nav-menu__link">
+                  <div class="nav-menu__icon nav-menu__icon-main"></div>
+                  <div class="nav-menu__text">Главная</div>
+                </a>
+              </li>
+              <li class="nav-menu__item ">
+                <a href="prices.html" class="nav-menu__link">
+                  <div class="nav-menu__icon nav-menu__icon-price">
+                    <img src="" alt="">
+                  </div>
+                  <div class="nav-menu__text">Тарифы</div>
+                </a>
+              </li>
+              <li class="nav-menu__item nav-menu-active">
+                <a href="comments.html" class="nav-menu__link">
+                  <div class="nav-menu__icon nav-menu__icon-feedback">
+                    <img src="" alt="">
+                  </div>
+                  <div class="nav-menu__text">Отзывы</div>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
 
       <!-- основной контент-->
       <main class="main-content">
         <div class="main-nav">
-          <!--сделать списком
-          <a href="./main.html" class="main-nav__link">Главная</a>
-          /
-          <a href="" class="main-nav__link main-nav__link-active">Отзывы</a>-->
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="./main.html" class="main-nav__link">Главная</a>
+            </li>
+            <li class="main-nav__item main-nav__item_active">
+              <a href="" class="main-nav__link">Отзывы</a>
+            </li>
+          </ul>
         </div>
         <div class="feedback clearfix">
           <h1 class="feedback__title">Отзывы</h1>
@@ -138,9 +154,8 @@
         </div>
         <div class="page-scroll">
           <div class="page-scroll__title">
-            <p class="page-scroll__text">Страница 1 из 7</p>
+            Страница 1 из 7
           </div>
-          <div class="page-scroll__main">
             <ul class="page-scroll__item">
               <li class="page-scroll__number">
                 <a href="" class="page-scroll__link">
@@ -174,7 +189,7 @@
                 </a>
               </li>
             </ul>
-          </div>
+          
 
         </div>
         <div class="form">
@@ -223,7 +238,7 @@
                     </label>
                   </div>
                   <div class="form__radio-right">
-                    <input type="submit" value="Отправить" class="form_submit">
+                    <input type="submit" value="Отправить" class="form__submit">
                   </div>
                 </div>
               </div>

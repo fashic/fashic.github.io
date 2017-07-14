@@ -1,7 +1,7 @@
 .header {
   background: #27273E;
   height: 77px;
-  display: inline-block;
+  display: block;
   min-width: 100%;
   padding: 10px 20px;
 }
@@ -25,11 +25,58 @@
 .contacts-schedule {
   text-align: right;
   font-size: 14px;
+  position: relative;
 }
  
 
 .contacts-schedule__link {
   color: rgba(119,152,201, .7);
+  font-weight: bold;
+  
+}
+
+.contacts__dropdown {
+  position: absolute;
+  padding: 15px 12px;
+  background: #fff;
+  border-radius: 5px 0 5px 5px;
+  text-align: left;
+  top: 100%;
+  right: 0;
+  margin-top: 23px;
+  margin-right: 6px;
+  box-shadow: 0 0 10px 0 rgba(23, 59, 117, 0.55);
+  z-index: 1000;
+  display: none;
+}
+
+.contacts-schedule:hover .contacts__dropdown {
+   display: block;
+}
+
+.contacts__dropdown::before {
+  content: "";
+  display: block;
+  border: 11px solid transparent;
+  border-top-width: 0;
+  border-bottom-color: #fff;
+  position: absolute;
+  top: -11px;
+  right: 0;
+}
+
+.contacts__dropdown::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 25px;
+  left: 0;
+  right: 0;
+  top: -25px;
+}
+
+.contacts__time {
+  color: #ed3b8b;
   font-weight: bold;
   
 }
