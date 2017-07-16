@@ -63,12 +63,16 @@ a {
 
 .container {
   width: 1100px;
-   margin: 0 auto; 
+  margin: 0 auto; 
 }
+
+.page {
+  margin-bottom: 45px;
+}
+
 
 .main-content {
   max-width: 880px; 
   float: left;
-  margin-bottom: 63px;
   position: relative;
 }

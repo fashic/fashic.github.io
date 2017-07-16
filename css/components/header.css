@@ -12,7 +12,8 @@
 
 .contacts {
   float: right;
-  margin-right: 36px;
+  margin-right: 38px;
+  margin-top: 3px;
 }
 
 .contacts-phone {
@@ -30,21 +31,25 @@
  
 
 .contacts-schedule__link {
-  color: rgba(119,152,201, .7);
+  color: rgba(177, 33, 103, .7);
+  text-decoration: underline;
   font-weight: bold;
-  
+}
+
+.contacts-schedule__link:hover {
+  color: rgba(119,152,201, .7);
 }
 
 .contacts__dropdown {
   position: absolute;
-  padding: 15px 12px;
+  padding: 14px 9px;
   background: #fff;
   border-radius: 5px 0 5px 5px;
   text-align: left;
   top: 100%;
   right: 0;
-  margin-top: 23px;
-  margin-right: 6px;
+  margin-top: 20px;
+  margin-right: 3px;
   box-shadow: 0 0 10px 0 rgba(23, 59, 117, 0.55);
   z-index: 1000;
   display: none;
@@ -63,6 +68,7 @@
   position: absolute;
   top: -11px;
   right: 0;
+  border-radius: 3px;
 }
 
 .contacts__dropdown::after {
@@ -78,5 +84,8 @@
 .contacts__time {
   color: #ed3b8b;
   font-weight: bold;
-  
+}
+
+.contacts__lunch {
+  padding-top: 5px;
 }

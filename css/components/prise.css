@@ -1,3 +1,7 @@
+.price {
+  margin-bottom: 60px;
+}
+
 .price__title {
   font-size: 49px;
   margin-bottom: 32px;
@@ -24,7 +28,7 @@
   height: 155px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 17px;
+  margin-bottom: 19px;
 }
 
 .price__img {
@@ -56,7 +60,7 @@
 }
 
 .price__name {
-  margin-bottom: 15px;
+  margin-bottom: 7px;
 }
 
 .price__name-title {
