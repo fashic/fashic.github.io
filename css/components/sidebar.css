@@ -106,19 +106,15 @@
   -webkit-transition: opacity .5s;
 }
 
-.nav-menu__link:hover .nav-menu__text{
-  animation: color .5s;
-  animation-fill-mode: forwards;
+.nav-menu__link .nav-menu__text{
+  color: #ec1e79;
+  transition: .5s;
 }
 
-@keyframes color {
-  0% {
-    color: #ec1e79;
-  }
-  100% {
-    color: #221f1f;
-  }
+.nav-menu__link:hover .nav-menu__text{
+  color: #221f1f;
 }
+
 
 .nav-menu-active .nav-menu__link  {
   cursor: default;

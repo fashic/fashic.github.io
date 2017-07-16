@@ -52,12 +52,30 @@
   margin-right: 3px;
   box-shadow: 0 0 10px 0 rgba(23, 59, 117, 0.55);
   z-index: 1000;
-  display: none;
+    display: none;    
+   /* visibility: hidden;  */
+    opacity: 0;  
+  transition: opacity 5s;
 }
 
 .contacts-schedule:hover .contacts__dropdown {
-   display: block;
+   /* visibility: visible;    */
+   display: block; 
+    opacity: 1;  
+  /* transition: opacity 5s; */
+  /* animation: opacity 1s;
+  animation-fill-mode: forwards; */
 }
+/* 
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
 
 .contacts__dropdown::before {
   content: "";
