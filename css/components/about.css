@@ -87,10 +87,15 @@
 
 .partners__item {
   float: left;
-  margin-right: 20px;
+  margin-right: 29px;
   width: 213px;
   margin-bottom: 41px;
   height: 75px;
+}
+
+.partners__item_right {
+  margin-right: 0;
+  padding-right: 12px;
 }
 
 .partners__link {

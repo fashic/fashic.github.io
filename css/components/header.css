@@ -40,7 +40,7 @@
   color: rgba(119,152,201, .7);
 }
 
-.contacts__dropdown {
+ё.contacts__dropdown {
   position: absolute;
   padding: 14px 9px;
   background: #fff;
@@ -52,16 +52,16 @@
   margin-right: 3px;
   box-shadow: 0 0 10px 0 rgba(23, 59, 117, 0.55);
   z-index: 1000;
-    display: none;    
+     display: none;     
    /* visibility: hidden;  */
-    opacity: 0;  
-  transition: opacity 5s;
+    /* opacity: 0;   */
+  /* transition: opacity 1s; */
 }
 
-.contacts-schedule:hover .contacts__dropdown {
+.contacts-schedule-link:hover .contacts__dropdown {
    /* visibility: visible;    */
-   display: block; 
-    opacity: 1;  
+    display: block;  
+    /* opacity: 1;   */
   /* transition: opacity 5s; */
   /* animation: opacity 1s;
   animation-fill-mode: forwards; */
